@@ -18,6 +18,8 @@ data = {
 	labels: dates,
 	datasets: [{
 		label: 'Price of Bitcoin.',
+		borderColor: "#ffff00",
+		fill: false,
 		data: bitcoinVals
 	}]
 }
